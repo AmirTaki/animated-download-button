@@ -9,7 +9,7 @@ download.addEventListener("click", (e) => {
         if(degree > 100){
             clearInterval(interval)
             number.innerHTML = `<i class="fa-solid fa-check"></i><br/><small>100% Done</small>`;
-            container.classList.add('done')
+            container.classList.add('done');
             return;
         }
         container.style.background = `conic-gradient(#f5036c ${degree}%, #333 0%)`;
