@@ -33,3 +33,9 @@ body{
     background: #222;
     opacity: .9;
 }
+
+.download {
+    position: absolute;
+    color: #03a9f5;
+    font-size: 4em;   
+}
