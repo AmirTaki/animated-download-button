@@ -55,3 +55,7 @@ body{
     font-size: 3em;
     text-align: center;
 }
+
+.container.done {
+    background-attachment: #0f0 !important;
+}
