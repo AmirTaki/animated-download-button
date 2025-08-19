@@ -5,10 +5,10 @@ download.addEventListener("click", (e) => {
     download.classList.add('start');
     let degree = 0;
     let interval = setInterval(() => {
-        degree ++;
+        degree++;
         if(degree > 100){
             clearInterval(interval)
-            number.textContent = `<i class="fa-solid fa-check"></i>`
+            number.innerHTML = `<i class="fa-solid fa-check"></i>`
         }
     })
 })
