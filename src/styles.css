@@ -17,11 +17,19 @@ body{
     position: relative;
     width: 200px;
     height: 200px;
-    background: conic-gradient(#333 0%, #30f 100%);
+    background: conic-gradient(#333 0%, #333 100%);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     user-select: none;
+}
+.container::before{
+    content : '';
+    position: absolute;
+    inset: 15px;
+    border-radius: 50%;
+    background: #222;
+    opacity: .9;
 }
