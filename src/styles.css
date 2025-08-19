@@ -41,3 +41,7 @@ body{
     color: #03a9f5;
     font-size: 4em;   
 }
+
+.download.start {
+    transform: translateY(160%);
+}
