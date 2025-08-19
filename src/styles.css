@@ -74,3 +74,7 @@ body{
     letter-spacing: .05em;
     transform: translate(-50%, 50%);
 }
+
+#container #number span {
+    font-size: .5em;
+}
