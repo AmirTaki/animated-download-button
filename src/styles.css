@@ -24,6 +24,7 @@ body{
     align-items: center;
     cursor: pointer;
     user-select: none;
+    overflow: hidden;
 }
 .container::before{
     content : '';
@@ -39,7 +40,8 @@ body{
     top: 50%;
     transform: translateY(-50%);
     color: #03a9f5;
-    font-size: 4em;   
+    font-size: 4em; 
+    transition: .5s;  
 }
 
 .download.start {
