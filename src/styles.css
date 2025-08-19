@@ -12,3 +12,14 @@ body{
     min-height: 100vh;
     background: #222;
 }
+
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: conic-gradient(#333 0%, #30f 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
